@@ -1,0 +1,19 @@
+{
+  "model": {
+	"type": "select",
+	"property": "custom_model_data",
+	"fallback": {
+		"type": "model",
+		"model": "item/carved_pumpkin"
+	},
+	"cases": [
+		{
+			"when": "adventurer",
+			"model": {
+				"type": "model",
+				"model": "bad:item/adventurer_hat"
+			}
+		}
+	]
+  }
+}
